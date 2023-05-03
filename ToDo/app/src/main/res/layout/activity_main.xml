@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Do"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#00796b"
+        android:layout_marginBottom="40dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addTask"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:id="@+id/taskButton"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My tasks"
+        android:layout_margin="20dp"
+        android:id="@+id/taskPage"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearId"
+        android:text="Clear Tasks"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

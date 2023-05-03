@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calci</string>
+    <string name="quantity">quantity</string>
+    <string name="_0">0</string>
+    <string name="order">Order</string>
+    <string name="price">price</string>
+</resources>

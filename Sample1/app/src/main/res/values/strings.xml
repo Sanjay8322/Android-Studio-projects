@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sample1</string>
+    <string name="travel_world">Travel World!</string>
+    <string name="travellersapp">travellersApp</string>
+    <string name="for_more_details">for more details</string>
+    <string name="for_more_details_9789060222" />
+    <string name="contact_us">contact us</string>
+    <string name="contact_us_for_more">contact_us_for_more</string>
+    <string name="contact_us_for_more_information">contact us for more information</string>
+</resources>
